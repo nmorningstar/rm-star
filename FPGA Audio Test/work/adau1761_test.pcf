@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.40xd on Wed Feb 18 17:06:33 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_100" LOCATE = SITE "Y9" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "F22" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "G22" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "H22" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "F21" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "H19" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "H18" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "H17" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "M15" LEVEL 1;
+COMP "AC_MCLK" LOCATE = SITE "AB2" LEVEL 1;
+COMP "AC_ADR0" LOCATE = SITE "AB1" LEVEL 1;
+COMP "AC_ADR1" LOCATE = SITE "Y5" LEVEL 1;
+COMP "AC_GPIO0" LOCATE = SITE "Y8" LEVEL 1;
+COMP "AC_GPIO1" LOCATE = SITE "AA7" LEVEL 1;
+COMP "AC_GPIO2" LOCATE = SITE "AA6" LEVEL 1;
+COMP "AC_GPIO3" LOCATE = SITE "Y6" LEVEL 1;
+COMP "AC_SCK" LOCATE = SITE "AB4" LEVEL 1;
+COMP "AC_SDA" LOCATE = SITE "AB5" LEVEL 1;
+NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

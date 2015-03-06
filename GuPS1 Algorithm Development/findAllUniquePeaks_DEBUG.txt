@@ -1,0 +1,1206 @@
+File: a_fret1(A#).wav
+Theoretical Frequency: 117
+Harmonic Count: 6
+Value: 117
+Value: 233
+Value: 349
+Value: 466
+Value: 587
+Value: 698
+Value: 831
+DIFF TEMP: 12
+File: a_fret10(G).wav
+Theoretical Frequency: 196
+Harmonic Count: 4
+Value: 196
+Value: 392
+Value: 587
+Value: 784
+Value: 988
+DIFF TEMP: 8
+File: a_fret11(G#).wav
+Theoretical Frequency: 208
+Harmonic Count: 4
+Value: 208
+Value: 415
+Value: 622
+Value: 831
+Value: 1047
+DIFF TEMP: 7
+File: a_fret12(A).wav
+Theoretical Frequency: 220
+Harmonic Count: 3
+Value: 220
+Value: 440
+Value: 659
+Value: 880
+DIFF TEMP: 0
+File: a_fret13(A#).wav
+Theoretical Frequency: 233
+Harmonic Count: 2
+Value: 233
+Value: 466
+Value: 698
+DIFF TEMP: 1
+File: a_fret14(B).wav
+Theoretical Frequency: 247
+Harmonic Count: 3
+Value: 247
+Value: 494
+Value: 740
+Value: 988
+DIFF TEMP: 0
+File: a_fret15(C).wav
+Theoretical Frequency: 262
+Harmonic Count: 3
+Value: 262
+Value: 523
+Value: 784
+Value: 1047
+DIFF TEMP: 1
+File: a_fret16(C#).wav
+Theoretical Frequency: 277
+Harmonic Count: 2
+Value: 277
+Value: 554
+Value: 831
+DIFF TEMP: 0
+File: a_fret17(D).wav
+Theoretical Frequency: 294
+Harmonic Count: 2
+Value: 294
+Value: 587
+Value: 880
+DIFF TEMP: 2
+File: a_fret18(D#).wav
+Theoretical Frequency: 311
+Harmonic Count: 2
+Value: 311
+Value: 622
+Value: 932
+DIFF TEMP: 1
+File: a_fret19(E).wav
+Theoretical Frequency: 330
+Harmonic Count: 2
+Value: 330
+Value: 659
+Value: 988
+DIFF TEMP: 2
+File: a_fret2(B).wav
+Theoretical Frequency: 123
+Harmonic Count: 6
+Value: 123
+Value: 247
+Value: 370
+Value: 494
+Value: 622
+Value: 740
+Value: 880
+DIFF TEMP: 19
+File: a_fret20(F).wav
+Theoretical Frequency: 349
+Harmonic Count: 1
+Value: 349
+Value: 698
+DIFF TEMP: 0
+File: a_fret21(F#).wav
+Theoretical Frequency: 370
+Harmonic Count: 1
+Value: 370
+Value: 740
+DIFF TEMP: 0
+File: a_fret22(G).wav
+Theoretical Frequency: 392
+Harmonic Count: 1
+Value: 392
+Value: 784
+DIFF TEMP: 0
+File: a_fret3(C).wav
+Theoretical Frequency: 131
+Harmonic Count: 6
+Value: 131
+Value: 262
+Value: 392
+Value: 523
+Value: 659
+Value: 784
+Value: 932
+DIFF TEMP: 15
+File: a_fret4(C#).wav
+Theoretical Frequency: 139
+Harmonic Count: 5
+Value: 139
+Value: 277
+Value: 415
+Value: 554
+Value: 698
+Value: 831
+DIFF TEMP: 3
+File: a_fret5(D).wav
+Theoretical Frequency: 147
+Harmonic Count: 6
+Value: 147
+Value: 294
+Value: 440
+Value: 587
+Value: 740
+Value: 880
+Value: 1047
+DIFF TEMP: 18
+File: a_fret6(D#).wav
+Theoretical Frequency: 156
+Harmonic Count: 4
+Value: 156
+Value: 311
+Value: 466
+Value: 622
+Value: 784
+DIFF TEMP: 4
+File: a_fret7(E).wav
+Theoretical Frequency: 165
+Harmonic Count: 5
+Value: 165
+Value: 330
+Value: 494
+Value: 659
+Value: 831
+Value: 988
+DIFF TEMP: 2
+File: a_fret8(F).wav
+Theoretical Frequency: 175
+Harmonic Count: 3
+Value: 175
+Value: 349
+Value: 523
+Value: 698
+DIFF TEMP: 2
+File: a_fret9(F#).wav
+Theoretical Frequency: 185
+Harmonic Count: 2
+Value: 185
+Value: 370
+Value: 554
+DIFF TEMP: 1
+File: a_open(A).wav
+Theoretical Frequency: 110
+Harmonic Count: 6
+Value: 110
+Value: 220
+Value: 330
+Value: 440
+Value: 554
+Value: 659
+Value: 784
+DIFF TEMP: 14
+File: b_fret1(C).wav
+Theoretical Frequency: 262
+Harmonic Count: 5
+Value: 262
+Value: 523
+Value: 784
+Value: 1047
+Value: 1319
+Value: 1568
+DIFF TEMP: 4
+File: b_fret10(A).wav
+Theoretical Frequency: 440
+Harmonic Count: 3
+Value: 440
+Value: 880
+Value: 1319
+Value: 1760
+DIFF TEMP: 0
+File: b_fret11(A#).wav
+Theoretical Frequency: 466
+Harmonic Count: 3
+Value: 466
+Value: 932
+Value: 1397
+Value: 1865
+DIFF TEMP: 1
+File: b_fret12(B).wav
+Theoretical Frequency: 494
+Harmonic Count: 4
+Value: 494
+Value: 988
+Value: 1480
+Value: 1976
+Value: 2489
+DIFF TEMP: 19
+File: b_fret13(C).wav
+Theoretical Frequency: 523
+Harmonic Count: 2
+Value: 523
+Value: 1047
+Value: 1568
+DIFF TEMP: 1
+File: b_fret14(C#).wav
+Theoretical Frequency: 554
+Harmonic Count: 4
+Value: 554
+Value: 1109
+Value: 1661
+Value: 2217
+Value: 2794
+DIFF TEMP: 24
+File: b_fret15(D).wav
+Theoretical Frequency: 587
+Harmonic Count: 3
+Value: 587
+Value: 1175
+Value: 1760
+Value: 2349
+DIFF TEMP: 1
+File: b_fret16(D#).wav
+Theoretical Frequency: 82
+Harmonic Count: 2
+Value: 82
+Value: 165
+Value: 247
+DIFF TEMP: 1
+File: b_fret17(E).wav
+Theoretical Frequency: 659
+Harmonic Count: 3
+Value: 659
+Value: 1319
+Value: 1976
+Value: 2637
+DIFF TEMP: 1
+File: b_fret18(F).wav
+Theoretical Frequency: 698
+Harmonic Count: 2
+Value: 698
+Value: 1397
+Value: 2093
+DIFF TEMP: 1
+File: b_fret19(F#).wav
+Theoretical Frequency: 740
+Harmonic Count: 2
+Value: 740
+Value: 1480
+Value: 2217
+DIFF TEMP: 3
+File: b_fret2(C#).wav
+Theoretical Frequency: 277
+Harmonic Count: 8
+Value: 277
+Value: 554
+Value: 831
+Value: 1109
+Value: 1397
+Value: 1661
+Value: 1976
+Value: 2217
+Value: 2489
+DIFF TEMP: 4
+File: b_fret20(G).wav
+Theoretical Frequency: 784
+Harmonic Count: 3
+Value: 784
+Value: 1568
+Value: 2349
+Value: 3136
+DIFF TEMP: 0
+File: b_fret21(G#).wav
+Theoretical Frequency: 831
+Harmonic Count: 2
+Value: 831
+Value: 1661
+Value: 2489
+DIFF TEMP: 4
+File: b_fret22(A).wav
+Theoretical Frequency: 880
+Harmonic Count: 2
+Value: 880
+Value: 1760
+Value: 2637
+DIFF TEMP: 3
+File: b_fret3(D).wav
+Theoretical Frequency: 294
+Harmonic Count: 7
+Value: 294
+Value: 587
+Value: 880
+Value: 1175
+Value: 1480
+Value: 1760
+Value: 2093
+Value: 2349
+DIFF TEMP: 3
+File: b_fret4(D#).wav
+Theoretical Frequency: 311
+Harmonic Count: 7
+Value: 311
+Value: 622
+Value: 932
+Value: 1245
+Value: 1568
+Value: 1865
+Value: 2217
+Value: 2489
+DIFF TEMP: 1
+File: b_fret5(E).wav
+Theoretical Frequency: 330
+Harmonic Count: 4
+Value: 330
+Value: 659
+Value: 988
+Value: 1319
+Value: 1661
+DIFF TEMP: 11
+File: b_fret6(F).wav
+Theoretical Frequency: 349
+Harmonic Count: 5
+Value: 349
+Value: 698
+Value: 1047
+Value: 1397
+Value: 1760
+Value: 2093
+DIFF TEMP: 1
+File: b_fret7(F#).wav
+Theoretical Frequency: 370
+Harmonic Count: 6
+Value: 370
+Value: 740
+Value: 1109
+Value: 1480
+Value: 1865
+Value: 2217
+Value: 2637
+DIFF TEMP: 47
+File: b_fret8(G).wav
+Theoretical Frequency: 392
+Harmonic Count: 5
+Value: 392
+Value: 784
+Value: 1175
+Value: 1568
+Value: 1976
+Value: 2349
+DIFF TEMP: 3
+File: b_fret9(G#).wav
+Theoretical Frequency: 415
+Harmonic Count: 5
+Value: 415
+Value: 831
+Value: 1245
+Value: 1661
+Value: 2093
+Value: 2489
+DIFF TEMP: 1
+File: b_open(B).wav
+Theoretical Frequency: 247
+Harmonic Count: 10
+Value: 247
+Value: 494
+Value: 740
+Value: 988
+Value: 1245
+Value: 1480
+Value: 1760
+Value: 1976
+Value: 2217
+Value: 2489
+Value: 2794
+DIFF TEMP: 77
+File: d_fret1(D#).wav
+Theoretical Frequency: 156
+Harmonic Count: 4
+Value: 156
+Value: 311
+Value: 466
+Value: 622
+Value: 784
+DIFF TEMP: 4
+File: d_fret10(C).wav
+Theoretical Frequency: 262
+Harmonic Count: 4
+Value: 262
+Value: 523
+Value: 784
+Value: 1047
+Value: 1319
+DIFF TEMP: 9
+File: d_fret11(C#).wav
+Theoretical Frequency: 277
+Harmonic Count: 4
+Value: 277
+Value: 554
+Value: 831
+Value: 1109
+Value: 1397
+DIFF TEMP: 12
+File: d_fret12(D).wav
+Theoretical Frequency: 294
+Harmonic Count: 3
+Value: 294
+Value: 587
+Value: 880
+Value: 1175
+DIFF TEMP: 1
+File: d_fret13(D#).wav
+Theoretical Frequency: 311
+Harmonic Count: 3
+Value: 311
+Value: 622
+Value: 932
+Value: 1245
+DIFF TEMP: 1
+File: d_fret14(E).wav
+Theoretical Frequency: 330
+Harmonic Count: 2
+Value: 330
+Value: 659
+Value: 988
+DIFF TEMP: 2
+File: d_fret15(F).wav
+Theoretical Frequency: 349
+Harmonic Count: 3
+Value: 349
+Value: 698
+Value: 1047
+Value: 1397
+DIFF TEMP: 1
+File: d_fret16(F#).wav
+Theoretical Frequency: 370
+Harmonic Count: 2
+Value: 370
+Value: 740
+Value: 1109
+DIFF TEMP: 1
+File: d_fret17(G).wav
+Theoretical Frequency: 392
+Harmonic Count: 2
+Value: 392
+Value: 784
+Value: 1175
+DIFF TEMP: 1
+File: d_fret18(G#).wav
+Theoretical Frequency: 415
+Harmonic Count: 2
+Value: 415
+Value: 831
+Value: 1245
+DIFF TEMP: 0
+File: d_fret19(A).wav
+Theoretical Frequency: 440
+Harmonic Count: 2
+Value: 440
+Value: 880
+Value: 1319
+DIFF TEMP: 1
+File: d_fret2(E).wav
+Theoretical Frequency: 165
+Harmonic Count: 8
+Value: 165
+Value: 330
+Value: 494
+Value: 659
+Value: 831
+Value: 988
+Value: 1175
+Value: 1319
+Value: 1480
+DIFF TEMP: 5
+File: d_fret20(A#).wav
+Theoretical Frequency: 466
+Harmonic Count: 2
+Value: 466
+Value: 932
+Value: 1397
+DIFF TEMP: 1
+File: d_fret21(B).wav
+Theoretical Frequency: 494
+Harmonic Count: 1
+Value: 494
+Value: 988
+DIFF TEMP: 0
+File: d_fret22(C).wav
+Theoretical Frequency: 523
+Harmonic Count: 1
+Value: 523
+Value: 1047
+DIFF TEMP: 1
+File: d_fret3(F).wav
+Theoretical Frequency: 175
+Harmonic Count: 7
+Value: 175
+Value: 349
+Value: 523
+Value: 698
+Value: 880
+Value: 1047
+Value: 1245
+Value: 1397
+DIFF TEMP: 3
+File: d_fret4(F#).wav
+Theoretical Frequency: 185
+Harmonic Count: 7
+Value: 185
+Value: 370
+Value: 554
+Value: 740
+Value: 932
+Value: 1109
+Value: 1319
+Value: 1480
+DIFF TEMP: 0
+File: d_fret5(G).wav
+Theoretical Frequency: 196
+Harmonic Count: 5
+Value: 196
+Value: 392
+Value: 587
+Value: 784
+Value: 988
+Value: 1175
+DIFF TEMP: 1
+File: d_fret6(G#).wav
+Theoretical Frequency: 208
+Harmonic Count: 5
+Value: 208
+Value: 415
+Value: 622
+Value: 831
+Value: 1047
+Value: 1245
+DIFF TEMP: 3
+File: d_fret7(A).wav
+Theoretical Frequency: 220
+Harmonic Count: 5
+Value: 220
+Value: 440
+Value: 659
+Value: 880
+Value: 1109
+Value: 1319
+DIFF TEMP: 1
+File: d_fret8(A#).wav
+Theoretical Frequency: 233
+Harmonic Count: 6
+Value: 233
+Value: 466
+Value: 698
+Value: 932
+Value: 1175
+Value: 1397
+Value: 1661
+DIFF TEMP: 30
+File: d_fret9(B).wav
+Theoretical Frequency: 247
+Harmonic Count: 4
+Value: 247
+Value: 494
+Value: 740
+Value: 988
+Value: 1245
+DIFF TEMP: 10
+File: d_open(D).wav
+Theoretical Frequency: 147
+Harmonic Count: 7
+Value: 147
+Value: 294
+Value: 440
+Value: 587
+Value: 740
+Value: 880
+Value: 1047
+Value: 1175
+DIFF TEMP: 1
+File: g_fret1(G#).wav
+Theoretical Frequency: 208
+Harmonic Count: 6
+Value: 208
+Value: 415
+Value: 622
+Value: 831
+Value: 1047
+Value: 1245
+Value: 1480
+DIFF TEMP: 24
+File: g_fret10(F).wav
+Theoretical Frequency: 349
+Harmonic Count: 3
+Value: 349
+Value: 698
+Value: 1047
+Value: 1397
+DIFF TEMP: 1
+File: g_fret11(F#).wav
+Theoretical Frequency: 370
+Harmonic Count: 3
+Value: 370
+Value: 740
+Value: 1109
+Value: 1480
+DIFF TEMP: 0
+File: g_fret12(G).wav
+Theoretical Frequency: 392
+Harmonic Count: 3
+Value: 392
+Value: 784
+Value: 1175
+Value: 1568
+DIFF TEMP: 0
+File: g_fret13(G#).wav
+Theoretical Frequency: 415
+Harmonic Count: 3
+Value: 415
+Value: 831
+Value: 1245
+Value: 1661
+DIFF TEMP: 1
+File: g_fret14(A).wav
+Theoretical Frequency: 440
+Harmonic Count: 3
+Value: 440
+Value: 880
+Value: 1319
+Value: 1760
+DIFF TEMP: 0
+File: g_fret15(A#).wav
+Theoretical Frequency: 466
+Harmonic Count: 2
+Value: 466
+Value: 932
+Value: 1397
+DIFF TEMP: 1
+File: g_fret16(B).wav
+Theoretical Frequency: 494
+Harmonic Count: 2
+Value: 494
+Value: 988
+Value: 1480
+DIFF TEMP: 2
+File: g_fret17(C).wav
+Theoretical Frequency: 523
+Harmonic Count: 2
+Value: 523
+Value: 1047
+Value: 1568
+DIFF TEMP: 1
+File: g_fret18(C#).wav
+Theoretical Frequency: 554
+Harmonic Count: 2
+Value: 554
+Value: 1109
+Value: 1661
+DIFF TEMP: 1
+File: g_fret19(D).wav
+Theoretical Frequency: 587
+Harmonic Count: 2
+Value: 587
+Value: 1175
+Value: 1760
+DIFF TEMP: 1
+File: g_fret2(A).wav
+Theoretical Frequency: 220
+Harmonic Count: 6
+Value: 220
+Value: 440
+Value: 659
+Value: 880
+Value: 1109
+Value: 1319
+Value: 1568
+DIFF TEMP: 28
+File: g_fret20(D#).wav
+Theoretical Frequency: 622
+Harmonic Count: 2
+Value: 622
+Value: 1245
+Value: 1865
+DIFF TEMP: 1
+File: g_fret21(E).wav
+Theoretical Frequency: 659
+Harmonic Count: 1
+Value: 659
+Value: 1319
+DIFF TEMP: 1
+File: g_fret22(F).wav
+Theoretical Frequency: 698
+Harmonic Count: 1
+Value: 698
+Value: 1397
+DIFF TEMP: 1
+File: g_fret3(A#).wav
+Theoretical Frequency: 233
+Harmonic Count: 6
+Value: 233
+Value: 466
+Value: 698
+Value: 932
+Value: 1175
+Value: 1397
+Value: 1661
+DIFF TEMP: 30
+File: g_fret4(B).wav
+Theoretical Frequency: 247
+Harmonic Count: 5
+Value: 247
+Value: 494
+Value: 740
+Value: 988
+Value: 1245
+Value: 1480
+DIFF TEMP: 2
+File: g_fret5(C).wav
+Theoretical Frequency: 262
+Harmonic Count: 5
+Value: 262
+Value: 523
+Value: 784
+Value: 1047
+Value: 1319
+Value: 1568
+DIFF TEMP: 4
+File: g_fret6(C#).wav
+Theoretical Frequency: 277
+Harmonic Count: 3
+Value: 277
+Value: 554
+Value: 831
+Value: 1109
+DIFF TEMP: 1
+File: g_fret7(D).wav
+Theoretical Frequency: 294
+Harmonic Count: 4
+Value: 294
+Value: 587
+Value: 880
+Value: 1175
+Value: 1480
+DIFF TEMP: 10
+File: g_fret8(D#).wav
+Theoretical Frequency: 311
+Harmonic Count: 5
+Value: 311
+Value: 622
+Value: 932
+Value: 1245
+Value: 1568
+Value: 1865
+DIFF TEMP: 1
+File: g_fret9(E).wav
+Theoretical Frequency: 330
+Harmonic Count: 4
+Value: 330
+Value: 659
+Value: 988
+Value: 1319
+Value: 1661
+DIFF TEMP: 11
+File: g_open(G).wav
+Theoretical Frequency: 196
+Harmonic Count: 5
+Value: 196
+Value: 392
+Value: 587
+Value: 784
+Value: 988
+Value: 1175
+DIFF TEMP: 1
+File: high_e_fret00(E)_long.wav
+Theoretical Frequency: 330
+Harmonic Count: 8
+Value: 330
+Value: 659
+Value: 988
+Value: 1319
+Value: 1661
+Value: 1976
+Value: 2349
+Value: 2637
+Value: 2960
+DIFF TEMP: 10
+File: high_e_fret01(F)_long.wav
+Theoretical Frequency: 349
+Harmonic Count: 6
+Value: 349
+Value: 698
+Value: 1047
+Value: 1397
+Value: 1760
+Value: 2093
+Value: 2489
+DIFF TEMP: 46
+File: high_e_fret02(F#)_long.wav
+Theoretical Frequency: 370
+Harmonic Count: 5
+Value: 370
+Value: 740
+Value: 1109
+Value: 1480
+Value: 1865
+Value: 2217
+DIFF TEMP: 3
+File: high_e_fret03(G)_long.wav
+Theoretical Frequency: 392
+Harmonic Count: 6
+Value: 392
+Value: 784
+Value: 1175
+Value: 1568
+Value: 1976
+Value: 2349
+Value: 2794
+DIFF TEMP: 50
+File: high_e_fret04(G#)_long.wav
+Theoretical Frequency: 415
+Harmonic Count: 7
+Value: 415
+Value: 831
+Value: 1245
+Value: 1661
+Value: 2093
+Value: 2489
+Value: 2960
+Value: 3322
+DIFF TEMP: 2
+File: high_e_fret05(A)_long.wav
+Theoretical Frequency: 440
+Harmonic Count: 7
+Value: 440
+Value: 880
+Value: 1319
+Value: 1760
+Value: 2217
+Value: 2637
+Value: 3136
+Value: 3520
+DIFF TEMP: 0
+File: high_e_fret06(A#)_long.wav
+Theoretical Frequency: 466
+Harmonic Count: 7
+Value: 466
+Value: 932
+Value: 1397
+Value: 1865
+Value: 2349
+Value: 2794
+Value: 3322
+Value: 3729
+DIFF TEMP: 1
+File: high_e_fret07(B)_long.wav
+Theoretical Frequency: 494
+Harmonic Count: 4
+Value: 494
+Value: 988
+Value: 1480
+Value: 1976
+Value: 2489
+DIFF TEMP: 19
+File: high_e_fret08(C)_long.wav
+Theoretical Frequency: 523
+Harmonic Count: 5
+Value: 523
+Value: 1047
+Value: 1568
+Value: 2093
+Value: 2637
+Value: 3136
+DIFF TEMP: 2
+File: high_e_fret09(C#)_long.wav
+Theoretical Frequency: 554
+Harmonic Count: 5
+Value: 554
+Value: 1109
+Value: 1661
+Value: 2217
+Value: 2794
+Value: 3322
+DIFF TEMP: 2
+File: high_e_fret10(D)_long.wav
+Theoretical Frequency: 587
+Harmonic Count: 4
+Value: 587
+Value: 1175
+Value: 1760
+Value: 2349
+Value: 2960
+DIFF TEMP: 25
+File: high_e_fret11(D#)_long.wav
+Theoretical Frequency: 622
+Harmonic Count: 3
+Value: 622
+Value: 1245
+Value: 1865
+Value: 2489
+DIFF TEMP: 1
+File: high_e_fret12(E)_long.wav
+Theoretical Frequency: 659
+Harmonic Count: 3
+Value: 659
+Value: 1319
+Value: 1976
+Value: 2637
+DIFF TEMP: 1
+File: high_e_fret13(F)_long.wav
+Theoretical Frequency: 698
+Harmonic Count: 3
+Value: 698
+Value: 1397
+Value: 2093
+Value: 2794
+DIFF TEMP: 2
+File: high_e_fret14(F#)_long.wav
+Theoretical Frequency: 740
+Harmonic Count: 3
+Value: 740
+Value: 1480
+Value: 2217
+Value: 2960
+DIFF TEMP: 0
+File: high_e_fret15(G)_long.wav
+Theoretical Frequency: 784
+Harmonic Count: 2
+Value: 784
+Value: 1568
+Value: 2349
+DIFF TEMP: 3
+File: high_e_fret16(G#)_long.wav
+Theoretical Frequency: 831
+Harmonic Count: 3
+Value: 831
+Value: 1661
+Value: 2489
+Value: 3322
+DIFF TEMP: 2
+File: high_e_fret17(A)_long.wav
+Theoretical Frequency: 880
+Harmonic Count: 2
+Value: 880
+Value: 1760
+Value: 2637
+DIFF TEMP: 3
+File: high_e_fret18(A#)_long.wav
+Theoretical Frequency: 932
+Harmonic Count: 2
+Value: 932
+Value: 1865
+Value: 2794
+DIFF TEMP: 2
+File: high_e_fret19(B)_long.wav
+Theoretical Frequency: 988
+Harmonic Count: 2
+Value: 988
+Value: 1976
+Value: 2960
+DIFF TEMP: 4
+File: high_e_fret20(C)_long.wav
+Theoretical Frequency: 1047
+Harmonic Count: 2
+Value: 1047
+Value: 2093
+Value: 3136
+DIFF TEMP: 5
+File: high_e_fret21(C#)_long.wav
+Theoretical Frequency: 1109
+Harmonic Count: 1
+Value: 1109
+Value: 2217
+DIFF TEMP: 1
+File: high_e_fret22(D)_long.wav
+Theoretical Frequency: 1175
+Harmonic Count: 2
+Value: 1175
+Value: 2349
+Value: 3520
+DIFF TEMP: 5
+File: low_e_fret00(E)_long.wav
+Theoretical Frequency: 82
+Harmonic Count: 8
+Value: 82
+Value: 165
+Value: 247
+Value: 330
+Value: 415
+Value: 494
+Value: 587
+Value: 659
+Value: 740
+DIFF TEMP: 2
+File: low_e_fret01(F)_long.wav
+Theoretical Frequency: 87
+Harmonic Count: 5
+Value: 87
+Value: 175
+Value: 262
+Value: 349
+Value: 440
+Value: 523
+DIFF TEMP: 1
+File: low_e_fret02(F#)_long.wav
+Theoretical Frequency: 92
+Harmonic Count: 4
+Value: 92
+Value: 185
+Value: 277
+Value: 370
+Value: 466
+DIFF TEMP: 6
+File: low_e_fret03(G)_long.wav
+Theoretical Frequency: 98
+Harmonic Count: 6
+Value: 98
+Value: 196
+Value: 294
+Value: 392
+Value: 494
+Value: 587
+Value: 698
+DIFF TEMP: 12
+File: low_e_fret04(G#)_long.wav
+Theoretical Frequency: 104
+Harmonic Count: 5
+Value: 104
+Value: 208
+Value: 311
+Value: 415
+Value: 523
+Value: 622
+DIFF TEMP: 2
+File: low_e_fret05(A)_long.wav
+Theoretical Frequency: 110
+Harmonic Count: 4
+Value: 110
+Value: 220
+Value: 330
+Value: 440
+Value: 554
+DIFF TEMP: 4
+File: low_e_fret06(A#)_long.wav
+Theoretical Frequency: 117
+Harmonic Count: 4
+Value: 117
+Value: 233
+Value: 349
+Value: 466
+Value: 587
+DIFF TEMP: 2
+File: low_e_fret07(B)_long.wav
+Theoretical Frequency: 123
+Harmonic Count: 4
+Value: 123
+Value: 247
+Value: 370
+Value: 494
+Value: 622
+DIFF TEMP: 7
+File: low_e_fret08(C)_long.wav
+Theoretical Frequency: 131
+Harmonic Count: 4
+Value: 131
+Value: 262
+Value: 392
+Value: 523
+Value: 659
+DIFF TEMP: 4
+File: low_e_fret09(C#)_long.wav
+Theoretical Frequency: 139
+Harmonic Count: 3
+Value: 139
+Value: 277
+Value: 415
+Value: 554
+DIFF TEMP: 2
+File: low_e_fret10(D)_long.wav
+Theoretical Frequency: 147
+Harmonic Count: 3
+Value: 147
+Value: 294
+Value: 440
+Value: 587
+DIFF TEMP: 1
+File: low_e_fret11(D#)_long.wav
+Theoretical Frequency: 156
+Harmonic Count: 3
+Value: 156
+Value: 311
+Value: 466
+Value: 622
+DIFF TEMP: 2
+File: low_e_fret12(E)_long.wav
+Theoretical Frequency: 165
+Harmonic Count: 3
+Value: 165
+Value: 330
+Value: 494
+Value: 659
+DIFF TEMP: 1
+File: low_e_fret13(F)_long.wav
+Theoretical Frequency: 175
+Harmonic Count: 3
+Value: 175
+Value: 349
+Value: 523
+Value: 698
+DIFF TEMP: 2
+File: low_e_fret14(F#)_long.wav
+Theoretical Frequency: 185
+Harmonic Count: 2
+Value: 185
+Value: 370
+Value: 554
+DIFF TEMP: 1
+File: low_e_fret15(G)_long.wav
+Theoretical Frequency: 196
+Harmonic Count: 2
+Value: 196
+Value: 392
+Value: 587
+DIFF TEMP: 1
+File: low_e_fret16(G#)_long.wav
+Theoretical Frequency: 208
+Harmonic Count: 3
+Value: 208
+Value: 415
+Value: 622
+Value: 831
+DIFF TEMP: 1
+File: low_e_fret17(A)_long.wav
+Theoretical Frequency: 220
+Harmonic Count: 2
+Value: 220
+Value: 440
+Value: 659
+DIFF TEMP: 1
+File: low_e_fret18(A#)_long.wav
+Theoretical Frequency: 233
+Harmonic Count: 2
+Value: 233
+Value: 466
+Value: 698
+DIFF TEMP: 1
+File: low_e_fret19(B)_long.wav
+Theoretical Frequency: 247
+Harmonic Count: 2
+Value: 247
+Value: 494
+Value: 740
+DIFF TEMP: 1
+File: low_e_fret20(C)_long.wav
+Theoretical Frequency: 262
+Harmonic Count: 2
+Value: 262
+Value: 523
+Value: 784
+DIFF TEMP: 2
+File: low_e_fret21(C#)_long.wav
+Theoretical Frequency: 277
+Harmonic Count: 0
+Value: 277
+DIFF TEMP: 0
+File: low_e_fret22(D)_long.wav
+Theoretical Frequency: 294
+Harmonic Count: 2
+Value: 294
+Value: 587
+Value: 880
+DIFF TEMP: 2
+
+Unique Frequencies: 67
+Savings: 582
+Max Quantization: 77
+Max Quantization File Name: b_open(B).wav

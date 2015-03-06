@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\FPGA Audio Test\work\adau1761_test.ncd
+OUTFILE=C:\Xilinx\FPGA Audio Test\work\adau1761_test.bit
+FAMILY=Zynq
+PART=xc7z020-3clg484
+WORKINGDIR=C:\Xilinx\FPGA Audio Test\work
+LICENSE=WebPack
+USER_INFO=__0_0_0

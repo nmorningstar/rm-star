@@ -1,0 +1,20 @@
+# Output products list for <a3_r_fir>
+a3_r_fir.asy
+a3_r_fir.gise
+a3_r_fir.mif
+a3_r_fir.ngc
+a3_r_fir.sym
+a3_r_fir.vhd
+a3_r_fir.vho
+a3_r_fir.xco
+a3_r_fir.xise
+a3_r_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_lin.zip
+a3_r_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_lin64.zip
+a3_r_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_nt.zip
+a3_r_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_nt64.zip
+a3_r_fir\doc\ds795_fir_compiler.pdf
+a3_r_fir\doc\fir_compiler_v6_3_readme.txt
+a3_r_fir\doc\fir_compiler_v6_3_vinfo.html
+a3_r_fir_flist.txt
+a3_r_fir_xmdf.tcl
+demo_tb\tb_a3_r_fir.vhd

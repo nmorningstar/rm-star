@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/FPGA Audio Test/work/adau1761_test.xst" -ofn "C:/Xilinx/FPGA Audio Test/work/adau1761_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Xilinx/FPGA Audio Test/adau1761_test.ucf" -p xc7z020-clg484-3 "adau1761_test.ngc" adau1761_test.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -detail -ir off -pr b -lc off -power off -o adau1761_test_map.ncd adau1761_test.ngd adau1761_test.pcf 
+par -w -intstyle ise -ol high -mt off adau1761_test_map.ncd adau1761_test.ncd adau1761_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adau1761_test.twx adau1761_test.ncd -o adau1761_test.twr adau1761_test.pcf 
+bitgen -intstyle ise -f adau1761_test.ut adau1761_test.ncd 

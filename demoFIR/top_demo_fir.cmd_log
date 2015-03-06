@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Natalie/Documents/GitHub/CMPE450/demoFIR/top_demo_fir.xst" -ofn "C:/Users/Natalie/Documents/GitHub/CMPE450/demoFIR/top_demo_fir.syr" 

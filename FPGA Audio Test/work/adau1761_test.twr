@@ -1,0 +1,696 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml adau1761_test.twx adau1761_test.ncd -o adau1761_test.twr
+adau1761_test.pcf
+
+Design file:              adau1761_test.ncd
+Physical constraint file: adau1761_test.pcf
+Device,package,speed:     xc7z020,clg484,C,-3 (ADVANCED 1.03 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 2.000ns (Tmmcmpw_CLKIN1_100_150)
+  Physical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Logical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Location pin: MMCME2_ADV_X0Y0.CLKIN1
+  Clock network: i_clocking/clkin1
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 2.000ns (Tmmcmpw_CLKIN1_100_150)
+  Physical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Logical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Location pin: MMCME2_ADV_X0Y0.CLKIN1
+  Clock network: i_clocking/clkin1
+--------------------------------------------------------------------------------
+Slack: 8.751ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tmmcmper_CLKIN(Finmax))
+  Physical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Logical resource: i_clocking/mmcm_adv_inst/CLKIN1
+  Location pin: MMCME2_ADV_X0Y0.CLKIN1
+  Clock network: i_clocking/clkin1
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "i_clocking/clkout0" derived from  
+NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;  multiplied by 2.08 to 20.833 
+nS   
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 26534 paths analyzed, 3380 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.756ns.
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip (SLICE_X33Y49.D5), 43 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     14.077ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT (RAM)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      6.556ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.062ns (0.112 - 0.174)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X2Y19.DOADO2  Trcko_DOA             1.846   Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+                                                       Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+    SLICE_X81Y66.D2      net (fanout=21)       2.168   Inst_adau1761_izedboard/Inst_i2c/inst_data<2>
+    SLICE_X81Y66.CMUX    Topdc                 0.408   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13_F
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13
+    SLICE_X33Y49.B1      net (fanout=1)        1.646   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+    SLICE_X33Y49.B       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.D5      net (fanout=1)        0.327   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.CLK     Tas                   0.064   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o15
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    -------------------------------------------------  ---------------------------
+    Total                                      6.556ns (2.415ns logic, 4.141ns route)
+                                                       (36.8% logic, 63.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.171ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT (RAM)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      6.462ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.062ns (0.112 - 0.174)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X2Y19.DOADO0  Trcko_DOA             1.846   Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+                                                       Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+    SLICE_X81Y66.D4      net (fanout=20)       2.074   Inst_adau1761_izedboard/Inst_i2c/inst_data<0>
+    SLICE_X81Y66.CMUX    Topdc                 0.408   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13_F
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13
+    SLICE_X33Y49.B1      net (fanout=1)        1.646   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+    SLICE_X33Y49.B       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.D5      net (fanout=1)        0.327   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.CLK     Tas                   0.064   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o15
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    -------------------------------------------------  ---------------------------
+    Total                                      6.462ns (2.415ns logic, 4.047ns route)
+                                                       (37.4% logic, 62.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.325ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT (RAM)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      6.308ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.062ns (0.112 - 0.174)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X2Y19.DOADO1  Trcko_DOA             1.846   Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+                                                       Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+    SLICE_X81Y66.D3      net (fanout=15)       1.920   Inst_adau1761_izedboard/Inst_i2c/inst_data<1>
+    SLICE_X81Y66.CMUX    Topdc                 0.408   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13_F
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o13
+    SLICE_X33Y49.B1      net (fanout=1)        1.646   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o12
+    SLICE_X33Y49.B       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.D5      net (fanout=1)        0.327   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o14
+    SLICE_X33Y49.CLK     Tas                   0.064   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_PWR_17_o_Mux_121_o15
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/skip
+    -------------------------------------------------  ---------------------------
+    Total                                      6.308ns (2.415ns logic, 3.893ns route)
+                                                       (38.3% logic, 61.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2 (SLICE_X36Y49.A2), 104 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     14.956ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.713ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.DQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10
+    SLICE_X41Y45.D1      net (fanout=3)        0.723   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.A2      net (fanout=8)        0.878   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.028   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT91
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    -------------------------------------------------  ---------------------------
+    Total                                      5.713ns (1.163ns logic, 4.550ns route)
+                                                       (20.4% logic, 79.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.054ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.615ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.BQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8
+    SLICE_X41Y45.D2      net (fanout=3)        0.625   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<8>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.A2      net (fanout=8)        0.878   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.028   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT91
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    -------------------------------------------------  ---------------------------
+    Total                                      5.615ns (1.163ns logic, 4.452ns route)
+                                                       (20.7% logic, 79.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.102ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.567ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.CQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9
+    SLICE_X41Y45.D3      net (fanout=3)        0.577   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<9>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.A2      net (fanout=8)        0.878   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.028   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT91
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_2
+    -------------------------------------------------  ---------------------------
+    Total                                      5.567ns (1.163ns logic, 4.404ns route)
+                                                       (20.9% logic, 79.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5 (SLICE_X36Y49.D1), 104 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     14.989ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.680ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.DQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_10
+    SLICE_X41Y45.D1      net (fanout=3)        0.723   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.D1      net (fanout=8)        0.846   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.027   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT18
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    -------------------------------------------------  ---------------------------
+    Total                                      5.680ns (1.162ns logic, 4.518ns route)
+                                                       (20.5% logic, 79.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.087ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.582ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.BQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_8
+    SLICE_X41Y45.D2      net (fanout=3)        0.625   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<8>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.D1      net (fanout=8)        0.846   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.027   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT18
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    -------------------------------------------------  ---------------------------
+    Total                                      5.582ns (1.162ns logic, 4.420ns route)
+                                                       (20.8% logic, 79.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.135ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5 (FF)
+  Requirement:          20.833ns
+  Data Path Delay:      5.534ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.026ns (0.112 - 0.138)
+  Source Clock:         clk_48 rising at 0.000ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.138ns
+
+  Clock Uncertainty:          0.138ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.266ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9 to Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y45.CQ      Tcko                  0.393   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<10>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay_9
+    SLICE_X41Y45.D3      net (fanout=3)        0.577   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay<9>
+    SLICE_X41Y45.D       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>2
+    SLICE_X39Y44.A1      net (fanout=1)        0.696   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>1
+    SLICE_X39Y44.A       Tilo                  0.097   N150
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o<15>3
+    SLICE_X32Y48.C1      net (fanout=19)       0.934   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/delay[15]_GND_47_o_equal_64_o
+    SLICE_X32Y48.C       Tilo                  0.097   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/ack_flag
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW0
+    SLICE_X33Y47.C3      net (fanout=4)        0.469   N104
+    SLICE_X33Y47.CMUX    Tilo                  0.257   N188
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT31_SW2
+    SLICE_X34Y48.B4      net (fanout=2)        0.535   N182
+    SLICE_X34Y48.B       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/_n0538<3>_SW6
+    SLICE_X34Y48.A4      net (fanout=1)        0.315   N205
+    SLICE_X34Y48.A       Tilo                  0.097   N116
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT621
+    SLICE_X36Y49.D1      net (fanout=8)        0.846   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT62
+    SLICE_X36Y49.CLK     Tas                   0.027   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<5>
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/Mmux_state[3]_GND_47_o_wide_mux_118_OUT18
+                                                       Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_5
+    -------------------------------------------------  ---------------------------
+    Total                                      5.534ns (1.162ns logic, 4.372ns route)
+                                                       (21.0% logic, 79.0% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "i_clocking/clkout0" derived from
+ NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+ multiplied by 2.08 to 20.833 nS  
+
+--------------------------------------------------------------------------------
+
+Paths for end point lpms1_l/Mshreg_delay_line_210 (SLICE_X46Y17.DX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.140ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_7 (FF)
+  Destination:          lpms1_l/Mshreg_delay_line_210 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.153ns (Levels of Logic = 0)
+  Clock Path Skew:      0.013ns (0.079 - 0.066)
+  Source Clock:         clk_48 rising at 20.833ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_7 to lpms1_l/Mshreg_delay_line_210
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X45Y16.DQ      Tcko                  0.141   Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out<7>
+                                                       Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_7
+    SLICE_X46Y17.DX      net (fanout=5)        0.120   Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out<7>
+    SLICE_X46Y17.CLK     Tdh         (-Th)     0.108   lpms1_l/delay_line<210>
+                                                       lpms1_l/Mshreg_delay_line_210
+    -------------------------------------------------  ---------------------------
+    Total                                      0.153ns (0.033ns logic, 0.120ns route)
+                                                       (21.6% logic, 78.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT (RAMB18_X2Y19.ADDRARDADDR4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.141ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_1 (FF)
+  Destination:          Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.210ns (Levels of Logic = 0)
+  Clock Path Skew:      0.069ns (0.341 - 0.272)
+  Source Clock:         clk_48 rising at 20.833ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_1 to Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+    Location                  Delay type         Delay(ns)  Physical Resource
+                                                            Logical Resource(s)
+    ------------------------------------------------------  -------------------
+    SLICE_X35Y48.CQ           Tcko                  0.141   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<1>
+                                                            Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext_1
+    RAMB18_X2Y19.ADDRARDADDR4 net (fanout=6)        0.252   Inst_adau1761_izedboard/Inst_i2c/Inst_i3c2/pcnext<1>
+    RAMB18_X2Y19.CLKARDCLK    Trckc_ADDRA (-Th)     0.183   Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+                                                            Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT
+    ------------------------------------------------------  ---------------------------
+    Total                                           0.210ns (-0.042ns logic, 0.252ns route)
+                                                            (-20.0% logic, 120.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point lpms1_l/Mshreg_delay_line_211 (SLICE_X46Y19.AX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.147ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_8 (FF)
+  Destination:          lpms1_l/Mshreg_delay_line_211 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.160ns (Levels of Logic = 0)
+  Clock Path Skew:      0.013ns (0.077 - 0.064)
+  Source Clock:         clk_48 rising at 20.833ns
+  Destination Clock:    clk_48 rising at 20.833ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_8 to lpms1_l/Mshreg_delay_line_211
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X47Y18.AQ      Tcko                  0.141   Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out<11>
+                                                       Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out_8
+    SLICE_X46Y19.AX      net (fanout=5)        0.121   Inst_adau1761_izedboard/Inst_i2s_data_interface/audio_l_out<8>
+    SLICE_X46Y19.CLK     Tdh         (-Th)     0.102   lpms1_l/delay_line<214>
+                                                       lpms1_l/Mshreg_delay_line_211
+    -------------------------------------------------  ---------------------------
+    Total                                      0.160ns (0.039ns logic, 0.121ns route)
+                                                       (24.4% logic, 75.6% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "i_clocking/clkout0" derived from
+ NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+ multiplied by 2.08 to 20.833 nS  
+
+--------------------------------------------------------------------------------
+Slack: 18.871ns (period - min period limit)
+  Period: 20.833ns
+  Min period limit: 1.962ns (509.684MHz) (Trper_CLKA)
+  Physical resource: Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT/CLKARDCLK
+  Logical resource: Inst_adau1761_izedboard/Inst_i2c_Inst_adau1761_configuraiton_data/Mram_address[9]_GND_46_o_wide_mux_0_OUT/CLKARDCLK
+  Location pin: RAMB18_X2Y19.CLKARDCLK
+  Clock network: clk_48
+--------------------------------------------------------------------------------
+Slack: 19.241ns (period - min period limit)
+  Period: 20.833ns
+  Min period limit: 1.592ns (628.141MHz) (Tbcper_I(Fmax))
+  Physical resource: i_clocking/clkout1_buf/I0
+  Logical resource: i_clocking/clkout1_buf/I0
+  Location pin: BUFGCTRL_X0Y1.I0
+  Clock network: i_clocking/clkout0
+--------------------------------------------------------------------------------
+Slack: 19.570ns (period - min period limit)
+  Period: 20.833ns
+  Min period limit: 1.263ns (791.766MHz) (Tockper)
+  Physical resource: Inst_adau1761_izedboard/Inst_i2s_data_interface/i2s_d_out/CLK
+  Logical resource: Inst_adau1761_izedboard/Inst_i2s_data_interface/i2s_d_out/CK
+  Location pin: OLOGIC_X0Y25.CLK
+  Clock network: clk_48
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "i_clocking/clkfbout" derived from  
+NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;  multiplied by 5.00 to 50 nS 
+and duty cycle corrected to HIGH 25 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.592ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "i_clocking/clkfbout" derived from
+ NET "i_clocking/clkin1" PERIOD = 10 ns HIGH 50%;
+ multiplied by 5.00 to 50 nS and duty cycle corrected to HIGH 25 nS 
+
+--------------------------------------------------------------------------------
+Slack: 48.408ns (period - min period limit)
+  Period: 50.000ns
+  Min period limit: 1.592ns (628.141MHz) (Tbcper_I(Fmax))
+  Physical resource: i_clocking/clkf_buf/I0
+  Logical resource: i_clocking/clkf_buf/I0
+  Location pin: BUFGCTRL_X0Y0.I0
+  Clock network: i_clocking/clkfbout
+--------------------------------------------------------------------------------
+Slack: 48.751ns (period - min period limit)
+  Period: 50.000ns
+  Min period limit: 1.249ns (800.641MHz) (Tmmcmper_CLKFBOUT(Foutmax))
+  Physical resource: i_clocking/mmcm_adv_inst/CLKFBOUT
+  Logical resource: i_clocking/mmcm_adv_inst/CLKFBOUT
+  Location pin: MMCME2_ADV_X0Y0.CLKFBOUT
+  Clock network: i_clocking/clkfbout
+--------------------------------------------------------------------------------
+Slack: 163.360ns (max period limit - period)
+  Period: 50.000ns
+  Max period limit: 213.360ns (4.687MHz) (Tmmcmper_CLKFBOUT(Foutmin))
+  Physical resource: i_clocking/mmcm_adv_inst/CLKFBOUT
+  Logical resource: i_clocking/mmcm_adv_inst/CLKFBOUT
+  Location pin: MMCME2_ADV_X0Y0.CLKFBOUT
+  Clock network: i_clocking/clkfbout
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for i_clocking/clkin1
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|i_clocking/clkin1              |     10.000ns|      4.000ns|      3.243ns|            0|            0|            0|        26534|
+| i_clocking/clkout0            |     20.833ns|      6.756ns|          N/A|            0|            0|        26534|            0|
+| i_clocking/clkfbout           |     50.000ns|      1.592ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk_100
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100        |    6.756|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 26534 paths, 0 nets, and 2832 connections
+
+Design statistics:
+   Minimum period:   6.756ns{1}   (Maximum frequency: 148.017MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Feb 18 17:07:24 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 406 MB
+
+
+

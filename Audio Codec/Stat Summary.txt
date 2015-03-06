@@ -1,0 +1,10 @@
+NAME:			ADAU1761
+RESOLUTION:		24-bit
+SAMPLING RATE:	8kHz-96kHz
+SNR:			98dB
+
+POWER CONS.:	7mW (@ 48kHz 1.8V)
+INPUTS:		6
+OUTPUTS:		2 diff stereo, 2 single stereo, 1 mono headphone
+VOLT RNG:		1.8V-3.65V (Preamp?)
+PLL CLK: 		8MHz-27MHz

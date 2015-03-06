@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/a3_r_fir.vhd"
+vhdl work "top_demo_fir.vhd"

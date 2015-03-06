@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Xilinx\FPGA Audio Test\impact.xsl
+OUTFILE=C:\Xilinx\FPGA Audio Test\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\Xilinx\FPGA Audio Test
+LICENSE=iMPACT
+USER_INFO=iMPACT
