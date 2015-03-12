@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Mar 11 23:06:27 2015
+# Process ID: 10152
+# Log file: C:/Users/Natalie/Documents/GitHub/rm-star/demoDDS/demoDDS/demoDDS.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Natalie/Documents/GitHub/rm-star/demoDDS/demoDDS/demoDDS.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Natalie/Documents/GitHub/rm-star/demoDDS/demoDDS/demoDDS.sim/sim_1/behav/xsim.dir/dds_tb_behav/webtalk/xsim_webtalk.tcl -notrace

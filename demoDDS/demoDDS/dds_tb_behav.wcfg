@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dds_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dds_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group29" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/gclk" type="logic">
+         <obj_property name="ElementShortName">gclk</obj_property>
+         <obj_property name="ObjectShortName">gclk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/d" type="array">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/btnc" type="logic">
+         <obj_property name="ElementShortName">btnc</obj_property>
+         <obj_property name="ObjectShortName">btnc</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/CLK_PER" type="other">
+         <obj_property name="ElementShortName">CLK_PER</obj_property>
+         <obj_property name="ObjectShortName">CLK_PER</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/GCLK" type="logic">
+         <obj_property name="ElementShortName">GCLK</obj_property>
+         <obj_property name="ObjectShortName">GCLK</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/VALID" type="logic">
+         <obj_property name="ElementShortName">VALID</obj_property>
+         <obj_property name="ObjectShortName">VALID</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/BTNC" type="logic">
+         <obj_property name="ElementShortName">BTNC</obj_property>
+         <obj_property name="ObjectShortName">BTNC</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/d" type="array">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/foo" type="logic">
+         <obj_property name="ElementShortName">foo</obj_property>
+         <obj_property name="ObjectShortName">foo</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/dds_tb/uut/bar" type="array">
+         <obj_property name="ElementShortName">bar[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bar[31:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
